@@ -1,9 +1,9 @@
 
-###Portfolio
+# Portfolio
 
-#Live- https://priya-varshney-portfolio.vercel.app/
+### Live- https://priya-varshney-portfolio.vercel.app/
 
-##TechStack used-
+## TechStack used-
 HTML
 JavaScript
 React
