@@ -1,9 +1,10 @@
 import React from "react";
-
+import {BsFillBarChartFill} from 'react-icons/bs'
 
 export default function Github() {
   return (
   <section id="github" className="container px-5 py-10 mx-auto text-center lg:px-40">
+    <BsFillBarChartFill className="w-10 inline-block mb-4 h-10"/>
     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">GitHub Statistics</h1>
     <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto mb-20">
            Days I worked

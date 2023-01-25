@@ -1,5 +1,6 @@
 import React from "react";
-
+import {HiDownload} from 'react-icons/hi'
+import {MdWork} from 'react-icons/md'
 
 export default function About() {
   return (
@@ -21,12 +22,13 @@ export default function About() {
               href="#contact"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
               Download CV
-            
+              <HiDownload className="mt-1 h-6"/>
             </a>
             <a
               href="#projects"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
                My Projects
+               <MdWork className="mt-1 ml-1 h-5.5"/>
             </a>
           </div>
         </div>
