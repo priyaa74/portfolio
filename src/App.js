@@ -5,8 +5,8 @@ import About from './component/About';
 import Navbar from './component/Navbar';
 import Projects from './component/Projects';
 import Skills from './component/Skills';
-import Footer from './component/Footer'
 import Github from './component/Github';
+import Footer from './component/Footer'
 
 function App() {
   return (

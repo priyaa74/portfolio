@@ -2,6 +2,7 @@
 import React from "react";
 import { projects } from "../data";
 import {HiCode} from 'react-icons/hi'
+import {RiLiveFill,RiGithubFill} from 'react-icons/ri'
 
 export default function Projects() {
   return (
@@ -15,10 +16,9 @@ export default function Projects() {
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
-            <a
-              href={project.link}
+            <div
               key={project.image}
-              className="sm:w-1/2 w-100 p-4" target="_blank">
+              className="sm:w-1/2 w-100 p-4" >
               <div className="flex relative">
                 <img
                   alt="gallery"
@@ -34,9 +34,11 @@ export default function Projects() {
                   </h2>
                   <p className="leading-relaxed">{project.description}</p>
                   <h4 className="leading-relaxed text-sm title-font font-medium text-blue-800 mb-1">{project.addOns}</h4>
+                 <a href={project.live} target="_blank"><RiLiveFill className="w-10 mb-4 h-10 mx-10 inline-flex"/></a> 
+                  <a href={project.github} target="_blank"><RiGithubFill className="w-10 mb-4 h-10 mx-10 inline-flex" /></a> 
                 </div>
               </div>
-            </a>
+            </div>
           ))}
         </div>
       </div>

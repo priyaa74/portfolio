@@ -5,6 +5,7 @@ import {HiHeart} from 'react-icons/hi'
 
 export default function Footer(){
     return (
+        <section id="footer">
         <div className="bg-black text-center">
         <div className="inline-flex space-x-4 justify-center text-center h-20 w-full bg-black mt-4">
             <a href="https://github.com/priyaa74" target="_blank">
@@ -29,7 +30,7 @@ export default function Footer(){
             </a>
         </div>
         <h3 className="inline-flex ">Created By Priya <HiHeart className="text-green-500 w-6 h-6 mr-4" /></h3>
-             
         </div>
+        </section>
     )
 };
