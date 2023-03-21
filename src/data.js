@@ -10,6 +10,16 @@ export const projects = [
     addOns: "A collaborative project build by a team of 5 developers in 6 days.",
   },
   {
+    title: "Tic-tac-toe with chat feature",
+    subtitle: "Techstack used: HTML, CSS, JavaScript, React, NodeJS, ExpressJS, Stream-Chat, Stream-chat-react",
+    description:
+    "It is a multiplayer board game which also has functionality of online chat with your friends/opponents while playing the game. You can send the chat in real-time and also can react using emoticons.",
+    image: "./multiplayer.gif",
+    live: "https://tic-tac-toe-priyaa74.vercel.app/",
+    github:"https://github.com/priyaa74/tic-tac-toe-with-chat",
+    addOns: "An individual project build by me to implement the learnings.",
+  },
+  {
     title: "IndiaMart Clone",
     subtitle: "Techstack used: HTML, CSS, JavaScript, Local Storage",
     description:

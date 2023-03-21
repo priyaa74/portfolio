@@ -11,7 +11,7 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-20">
           <HiCode className="w-10 mb-4 h-10 mx-auto inline-block text-color-white" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Website clones I've Built
+            Websites I've Built
           </h1>
         </div>
         <div className="flex flex-wrap -m-4">
